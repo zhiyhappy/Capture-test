@@ -1,9 +1,9 @@
 # skillet preamble information used by panhandler
 # ---------------------------------------------------------------------
 # unique snippet name
-name: ezhi-ARP-Retriever
+name: Step2-ARP-Retriever
 # label used for menu selection
-label: ezhi-ARP-Retriever
+label: Step2-ARP-Retriever
 description: Retrieve ARP entries from PAN-OS
 
 # type of device configuration
