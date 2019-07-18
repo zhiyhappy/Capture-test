@@ -1,6 +1,6 @@
-name: workflow_01
+name: workflow
 # label used for menu selection
-label: Simple Workflow Example
+label: Simple Workflow
 
 description: |
   This skillet demonstrates a simple workflow.
