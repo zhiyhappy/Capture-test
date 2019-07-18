@@ -16,7 +16,7 @@ extends:
 # grouping of like snippets for dynamic menu creation in panhandler
 labels:
   collection:
-    - ezhi-activate-license-offline
+    - eezhi-myCollection
 
 # ---------------------------------------------------------------------
 # end of preamble section
