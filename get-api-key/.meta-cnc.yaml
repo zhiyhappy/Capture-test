@@ -1,10 +1,10 @@
 # skillet preamble information used by panhandler
 # ---------------------------------------------------------------------
 # unique snippet name
-name: Step1-get-api-key
+name: get-api-key
 # label used for menu selection
-label: Step1-get-api-key
-description: ezhi-get-system-api-key
+label: get-api-key
+description: get-system-api-key
 
 # type of device configuration
 # common types are panorama, panos, and template
