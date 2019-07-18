@@ -32,12 +32,12 @@ variables:
     description: Software Version
     default: not-saved
     type_hint: text
-  - name: vm-uuid
-    description: vm-uuid
+  - name: vm_uuid
+    description: vm_uuid
     default: not-saved
     type_hint: text
-  - name: vm-cpuid
-    description: vm-cpuid
+  - name: vm_cpuid
+    description: vm_cpuid
     default: not-saved
     type_hint: text
 

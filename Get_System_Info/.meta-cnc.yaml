@@ -4,7 +4,7 @@
 name: get-system-info
 # label used for menu selection
 label: get-system-info
-description: get-system-CPUID&UUID
+description: get-system-info
 
 # type of device configuration
 # common types are panorama, panos, and template
@@ -54,9 +54,9 @@ snippets:
         capture_pattern: result/system/uptime
       - name: sw_version
         capture_pattern: result/system/sw-version
-      - name: vm-uuid
+      - name: vm_uuid
         capture_pattern: result/system/vm-uuid
-      - name: vm-cpuid
+      - name: vm_cpuid
         capture_pattern: result/system/vm-cpuid
 # ---------------------------------------------------------------------
 # end of snippets section
