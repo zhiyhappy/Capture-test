@@ -1,6 +1,6 @@
-name: my_captured_values
+name: capture_system_values
 # label used for menu selection
-label: my_captured_values
+label: capture_system_values
 
 description: |
   This skillet demonstrates how to display variables captured from a previous skillet

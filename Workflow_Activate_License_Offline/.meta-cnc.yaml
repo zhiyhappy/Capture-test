@@ -1,9 +1,9 @@
-name: Workflow_Deactivate_License
+name: Workflow_Activate_License
 # label used for menu selection
-label: Workflow_Deactivate_License
+label: Workflow_Activate_License
 
 description: |
-  This skillet demonstrates a workflow to deactivate PANOS license offline.
+  This skillet demonstrates a workflow to activate PANOS license offline.
 type: workflow
 
 # Labels allow grouping and type specific options and are generally only used in advanced cases
@@ -22,8 +22,10 @@ variables:
 # in the 'variables' section.
 snippets:
   - name: get-api-key
-  - name: create-token-file
+  - name: get-system-info
   - name: show-token-content
-  - name: deactivate-license-with-token
-  - name: check-PANOS-license-info
-  - name: authcode-usage-check
+  - name: activate-license-with-authcode
+  - name: capture_license_keys
+#  - name: panos-install-license-key
+#  - name: check-PANOS-license-info
+#  - name: authcode-usage-check
