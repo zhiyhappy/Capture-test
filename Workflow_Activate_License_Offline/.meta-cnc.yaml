@@ -23,7 +23,6 @@ variables:
 snippets:
   - name: get-api-key
   - name: get-system-info
-  - name: show-token-content
   - name: activate-license-with-authcode
   - name: capture_license_keys
 #  - name: panos-install-license-key
