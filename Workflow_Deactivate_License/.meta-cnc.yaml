@@ -1,9 +1,9 @@
-name: workflow
+name: Workflow_Deactivate_License
 # label used for menu selection
-label: Simple Workflow
+label: Workflow_Deactivate_License
 
 description: |
-  This skillet demonstrates a simple workflow.
+  This skillet demonstrates a workflow to deactivate PANOS license offline.
 type: workflow
 
 # Labels allow grouping and type specific options and are generally only used in advanced cases
@@ -22,5 +22,8 @@ variables:
 # in the 'variables' section.
 snippets:
   - name: get-api-key
-  - name: get-system-info
-  - name: my_captured_values
+  - name: create-token-file
+  - name: show-token-content
+  - name: deactivate-license-with-token
+  - name: check-PANOS-license-info
+  - name: authcode-usage-check
