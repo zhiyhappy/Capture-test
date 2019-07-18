@@ -23,4 +23,4 @@ variables:
 snippets:
   - name: get-api-key
   - name: get-system-info
-  - name: captured_values_example
+  - name: my_captured_values

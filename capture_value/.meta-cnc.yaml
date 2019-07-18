@@ -1,6 +1,6 @@
-name: captured_values_example
+name: my_captured_values
 # label used for menu selection
-label: Captured Values Example
+label: my_captured_values
 
 description: |
   This skillet demonstrates how a template type and also how to display variables captured from a previous skillet
@@ -47,4 +47,4 @@ variables:
 # in the 'variables' section.
 snippets:
   - name: debug_output
-    file: output.j2
+    file: myoutput.j2
