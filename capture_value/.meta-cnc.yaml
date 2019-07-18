@@ -32,6 +32,14 @@ variables:
     description: Software Version
     default: not-saved
     type_hint: text
+  - name: vm-uuid
+    description: vm-uuid
+    default: not-saved
+    type_hint: text
+  - name: vm-cpuid
+    description: vm-cpuid
+    default: not-saved
+    type_hint: text
 
 # Snippets is an ordered list of configuration xml fragments that will be pushed to the PAN-OS NGFW. The xpath
 # determines where in the configuration hierarchy the xml fragment will be set. 'file' indicates the name of the file
